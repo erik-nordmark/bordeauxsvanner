@@ -9,7 +9,7 @@ Parameters:
     Default: hxmn
   GithubRepo:
     Type: String
-    Default: react-portfolio
+    Default: bordeauxsvanner
   GithubOAuthToken:
     Type: String
     Description: "Github personal access token"
@@ -35,7 +35,7 @@ Resources:
                 Version: 1
               OutputArtifacts: 
                 - 
-                  Name: ReactPortfolio
+                  Name: Bordeauxsvanner
               Configuration:
                 Owner: !Ref GithubOwner
                 Repo: !Ref GithubRepo
@@ -53,10 +53,10 @@ Resources:
                 Provider: CodeBuild
               InputArtifacts: 
                 - 
-                  Name: ReactPortfolio
+                  Name: Bordeauxsvanner
               OutputArtifacts: 
                 - 
-                  Name: ReactPortfolioBuild
+                  Name: BordeauxsvannerBuild
               Configuration:
                 ProjectName: !Ref CodeBuild
   CodeBuildRole:

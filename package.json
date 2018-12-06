@@ -7,9 +7,16 @@
     "@types/node": "10.12.8",
     "@types/react": "16.7.6",
     "@types/react-dom": "16.0.9",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/request-promise": "^4.1.42",
+    "csv": "^5.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-dropzone": "^7.0.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
     "typescript": "3.1.6"
   },
   "scripts": {
